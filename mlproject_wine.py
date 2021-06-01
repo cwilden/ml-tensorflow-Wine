@@ -76,7 +76,7 @@ my_model.fit(x=X_train, y=y_train, batch_size=my_batch_size, epochs=my_epochs,
 print("evaluation on training data",
       my_model.evaluate(x=X_train, y=y_train, batch_size=my_batch_size))
 
-# theere should not be any change below this point
+# there should not be any change below this point
 # read the testing dataset and print its accuracy
 (X_test, y_test) = read_csv(test_dataset_location)
 print("evaluation on test data",
